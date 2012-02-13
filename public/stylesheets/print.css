@@ -51,65 +51,46 @@
 	padding: 25px 10px 30px 0px;
 }
 
+.tab img {
+	padding:0px 0px 15px 0px;
+}
+
 .tab {
 	display:inline-block;
-	height:100px;
-	width:20px;
 	margin:0px 0px 15px 0px;
 }
 
 .stripe {
 	display:inline-block;
-	height:33px;
+	height:20px;
 	width:20px;
-	margin:33px 0px 15px 0px;
+	margin:40px 0px 15px 0px;
+	z-index:2;
+	position:absolute;
+	background-color:white;
 }
 
 #il {
 	color:#ff7800;
 }
-#il .tab {
-	background-color:#ff7800;
-}
 #yi {
 	color:#7215ad;
-}
-#yi .tab {
-	background-color:#7215ad;
 }
 #sam {
 	color:#3ccc1f;
 }
-#sam .tab {
-	background-color:#3ccc1f;
-}
 #sa {
 	color:#00a6e3;
-}
-#sa .tab {
-	background-color:#00a6e3;
 }
 #o {
 	color:#00a6e3;
 }
-#o .tab {
-	background-color:#00a6e3;
-}
 #yuk {
 	color:#80390d;
-}
-#yuk .tab {
-	background-color:#80390d;
 }
 #chil {
 	color:#ff1200;
 }
-#chil .tab {
-	background-color:#ff1200;
-}
 #pal {
 	color:#ff1200;
-}
-#pal .tab {
-	background-color:#ff1200;
 }
