@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'StMarieThin';
-    src: url('../fonts/StMarie-Thin-webfont.eot');
-    src: url('../fonts/StMarie-Thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/StMarie-Thin-webfont.woff') format('woff'),
-         url('../fonts/StMarie-Thin-webfont.ttf') format('truetype'),
-         url('../fonts/StMarie-Thin-webfont.svg#StMarieThin') format('svg');
+    src: url('/fonts/StMarie-Thin-webfont.eot');
+    src: url('/fonts/StMarie-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/StMarie-Thin-webfont.woff') format('woff'),
+         url('/fonts/StMarie-Thin-webfont.ttf') format('truetype'),
+         url('/fonts/StMarie-Thin-webfont.svg#StMarieThin') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -17,7 +17,7 @@
 	width:960px;
 	margin-left:auto;
 	margin-right:auto;
-	font: 40px 'StMarieThin', Arial, sans-serif;
+	font: 40px 'StMarieThin', Helvetica, sans-serif;
 	letter-spacing: 0;
 	border-top:1px solid #c4c4c4;
 	margin-top:20px;
@@ -35,7 +35,12 @@
 
 .taeguk .name {
 	position:absolute;
-	padding:40px 10px 30px 0px;
+	padding:27px 0px 30px 0px;
+}
+
+.taeguk .meaning {
+	font: 25px 'StMarieThin', Helvetica, sans-serif;	
+	line-height:30px;
 }
 
 .taeguk .badges {
@@ -43,7 +48,7 @@
 }
 
 .taeguk .badges img {
-	padding: 30px 10px 30px 0px;
+	padding: 25px 10px 30px 0px;
 }
 
 .tab {
@@ -53,51 +58,58 @@
 	margin:0px 0px 15px 0px;
 }
 
+.stripe {
+	display:inline-block;
+	height:33px;
+	width:20px;
+	margin:33px 0px 15px 0px;
+}
+
 #il {
-	color:#00bbe0;
+	color:#ff7800;
 }
 #il .tab {
-	background-color:#00bbe0;
+	background-color:#ff7800;
 }
 #yi {
-	color:#ff3594;
+	color:#7215ad;
 }
 #yi .tab {
-	background-color:#ff3594;
+	background-color:#7215ad;
 }
 #sam {
-	color:#ff8400;
+	color:#3ccc1f;
 }
 #sam .tab {
-	background-color:#ff8400;
+	background-color:#3ccc1f;
 }
 #sa {
-	color:#5f5f5f;
+	color:#00a6e3;
 }
 #sa .tab {
-	background-color:#5f5f5f;
+	background-color:#00a6e3;
 }
 #o {
-	color:#6a85db;
+	color:#00a6e3;
 }
 #o .tab {
-	background-color:#6a85db;
+	background-color:#00a6e3;
 }
 #yuk {
-	color:#1f6284;
+	color:#80390d;
 }
 #yuk .tab {
-	background-color:#1f6284;
+	background-color:#80390d;
 }
 #chil {
-	color:#462520;
+	color:#ff1200;
 }
 #chil .tab {
-	background-color:#462520;
+	background-color:#ff1200;
 }
 #pal {
-	color:#79400f;
+	color:#ff1200;
 }
 #pal .tab {
-	background-color:#79400f;
+	background-color:#ff1200;
 }
