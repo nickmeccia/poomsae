@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'StMarieThin';
-    src: url('../fonts/StMarie-Thin-webfont.eot');
-    src: url('../fonts/StMarie-Thin-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/StMarie-Thin-webfont.woff') format('woff'),
-         url('../fonts/StMarie-Thin-webfont.ttf') format('truetype'),
-         url('../fonts/StMarie-Thin-webfont.svg#StMarieThin') format('svg');
+    src: url('/fonts/StMarie-Thin-webfont.eot');
+    src: url('/fonts/StMarie-Thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/StMarie-Thin-webfont.woff') format('woff'),
+         url('/fonts/StMarie-Thin-webfont.ttf') format('truetype'),
+         url('/fonts/StMarie-Thin-webfont.svg#StMarieThin') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -31,7 +31,8 @@
 
 .taeguk .name {
 	position:absolute;
-	padding:40px 10px 30px 5px;
+	padding:40px 0px 30px 0px;
+/*	padding:40px 10px 30px 5px;*/
 }
 
 .taeguk .badges {
@@ -39,7 +40,8 @@
 }
 
 .taeguk .badges img {
-	padding: 30px 10px 30px 0px;
+	padding: 25px 10px 30px 0px;
+/*	padding: 30px 10px 30px 0px;*/
 }
 
 .tab {
